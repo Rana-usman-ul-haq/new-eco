@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/b.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for the logo and buttons alignment */
+        .header-logo {
+            height: 80px;
+            /* Adjust the height as needed */
+        }
+
+        .header-buttons {
+            margin-top: 10px;
+            /* Adjust the margin as needed */
+        }
+    </style>
+    <style>
+        /* Styles for the menu icon (navbar-toggler) */
+        .navbar-toggler-icon {
+            background-color: rgb(255, 255, 255);
+            /* Change the background color */
+
+
+            color: #F7941D;
+            margin-bottom: -50px;
+            border: #e9922d;
+            border-style: solid;
+            box-sizing: border-box;
+            border-width: 2px;
+            margin-bottom: 10px;
+            margin-top: 40px;
+            border-radius: 3px;
+
+
+
+
+        }
+
+        /* Styles for the text in the dropdown menu */
+        .dropdown-menu a {
+            color: black !important;
+            /* Change the text color */
+        }
+
+        /* Styles for the dropdown menu background */
+        .dropdown-menu {
+            background-color: rgb(187, 96, 96);
+            /* Change the background color of the dropdown */
+        }
+    </style>
+
+    <title>bitcoin-eco presale</title>
+</head>
+
+
+<body>
+    <div class="main">
+        <header class="container-fluid text-white px-0"
+            style="position: fixed;z-index: 2; background-color:rgba(255, 255, 255,0.9);">
+            <div class="row px-3 ">
+                <!-- Logo on the left corner -->
+                <div class="col-5 mx-auto my-2">
+                    <img src="./images/eco-logo.png" alt="Logo" class="header-logo" style="height: 90px;">
+                </div>
+                <!-- Buttons on the right corner -->
+                <div class="col-6 text-right mx-auto">
+                    <!-- For mobile, use a navbar-toggler and a collapsible navbar -->
+                    <div class="d-md-none">
+                        <!-- Menu Icon (Three lines) -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu"
+                            aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">...</span><br>
+
+                        </button>
+
+                        <!-- Collapsible Navbar -->
+                        <div class="collapse navbar-collapse" id="mobileMenu">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#claim" style="font-size: 19px; border: none; background-image: linear-gradient(45deg, #e9922d, #db6cbc);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;">Claim Bitcoin Eco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#FAQS-row" style="font-size: 19px; border: none; background-image: linear-gradient(45deg, #e9922d, #db6cbc);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;">F.A.Qs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- For non-mobile devices, display buttons in a single row -->
+                    <div class="d-none d-md-block" style="margin-top: 28px;">
+                        <button class="btn btn-primary " style="font-size: 18px; background-color:#ffffff;padding-right: 40px; border: none;background-image: linear-gradient(45deg, #e9922d, #db6cbc);
+                                  -webkit-background-clip: text;
+                                  -webkit-text-fill-color: transparent;">
+                            <a href="#claim" style="color: #F7941D; text-decoration: none;font-weight: 700; ">Claim
+                                Bitcoin Eco</a>
+                        </button>
+                        <button class="btn btn-primary" style="font-size: 18px; background-color:#ffffff ; border: none; background-image: linear-gradient(45deg, #e9922d, #db6cbc);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">
+                            <a href="#FAQS-row"
+                                style="color: #F7941D; text-decoration: none; font-weight: 700;">F.A.Qs</a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div id="header-label"
+                style="height: 1px; margin: 0;background-image: linear-gradient(45deg, #e9922d, #db6cbc);padding:0; ">
+            </div>
+        </header>
+
+
+        <div class="sec">
+           
+            <div class="container-fluid" id="third" style="text-align: center;">
+                
+                <div class="row justify-content-center" >
+                    <div class="col-lg-12 " >
+                        <div class="intro" >
+                            <h1 id="introH"></h1>
+                            <p id="introP" >
+                                <span class="first-word" style=" background-image: linear-gradient(45deg, #e9922d, #db6cbc);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-align: left;
+                    
+                            
+                              
+                                font-size: 60px;">Embrace </span>a greener Bitcoin for innovation and redemption. Recapture the excitement of its early days
+                                while aligning with environmental values. Traditional Bitcoin's carbon footprint raises concern; a
+                                new eco-friendly version addresses this. Hold it for the future as you make planet-friendly choices.
+                                Be part of a progressive movement, seize the opportunity to be a part of history, and also
+                                contribute to a cleaner, brighter future.
+                            </p>
+                            <div style="margin-top: -10px;"><br></div>
+                        </div>
+                        <div id="buytoken1" class="apps-card" >
+                            <div id="one" class="app-card3 app-card-12">
+                                <div class="app-card-logo--head">
+                                    <img src="images/eco-B.png" alt="logo" srcset="">
+
+                                </div>
+                                <div class="app-card-logo--head">
+
+                                    <h4 id="buy-token">Buy Bitcoin Eco</h4>
+                                </div>
+                                <div>
+                                    <p style="color: #0b9444; font-size: 14px; text-align: center;"> The environmentally friendly version of
+                                        bitcoin</p>
+                                </div>
+                                <div class="wrapper-btn">
+                                    <div class="custom-btn secondary-btn">
+                                        <span id="small-text">Token Price</span>
+                                    </div>
+                                    <div class="custom-btn secondary-btn">
+                                        <span id="small-text">1 ETH = <span id="token-rate"></span></span>
+                                    </div>
+                                </div>
+                                <div class="wrapper-btn">
+                                    <div class="custom-btn secondary-btn">
+                                        <span id="small-text">Token Sold</span>
+                                    </div>
+                                    <div class="custom-btn secondary-btn">
+                                        <span id="tokens-sold">NaN</span>
+                                    </div>
+                                </div>
+                                <div id="presale-text" class="row justify-content-center">
+                                    <div class="showaccount">
+                                        Account: &nbsp;<span id="showAccount">Connect Wallet</span>
+                                    </div>
+                                </div>
+                                <div class="input-icon-wrap">
+                                    <span class="input-icon"><img id="button-logo-e" src="images/Ethereum-logo.png"
+                                            alt="BNB"></span>
+                                    <input id="bnbInput" class="input-with-icon" type="number" value="" min="0"
+                                        placeholder="Enter ETH amount">
+                                </div>
+                                <div class="input-icon-wrap">
+                                    <span class="input-icon"><img id="button-logo-e" class="input-icon-img"
+                                            src="images/b.png" alt="Novis"></span>
+                                    <input id="novisInput" class="input-with-icon" type="number" value="" min="0"
+                                        placeholder="0.00" readonly>
+                                </div>
+                                <div class="app-card-buttons">
+                                    <button type="button" id="purchaseButton" class="btn">Buy</button>
+                                    <button type="button" id="connectButton" class="btn">Connect</button>
+                                </div>
+                                <div>
+                                    <p style="color: #ce740d; font-size: 14px; margin-top: 3px;text-align: center;">Buy now before the
+                                        price increase to $1.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="third">
+                <div class="row justify-content-center">
+
+                    <div id="buytoken" class="apps-card">
+                        <div class="app-card app-card-12">
+
+
+                            <div class="app-card-logo--head">
+                                <img src="images/eco-B.png" alt="logo" srcset="">
+
+                            </div>
+                            <h1 class="text-center" id="countdown-headline">Bitcoin Eco Presale will End After</h1>
+                            <div class="countdown-container">
+                                <div id="countdown">
+                                    <ul>
+                                        <li><span id="days">NaN</span>days</li>
+                                        <li><span id="hours">NaN</span>Hours</li>
+                                        <li><span id="minutes">NaN</span>Minutes</li>
+                                        <li><span id="seconds">NaN</span>Seconds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='section2'>
+                                <p class='section2__text'>Progress: &nbsp; $<span id="progress"
+                                        class='section2__text--bold'>
+                                        0</span>
+                                </p>
+                                <div class='section2__progressBarContainer'>
+                                    <div class='section2__progressBar'>
+                                        <div class='section2__progressBarRect' id='progressBarRect'>
+                                            <span class='section2__progressBarCircle'></span>
+                                        </div>
+                                    </div>
+                                    <span class='section2__progressBarPoint
+                                                    section2__progressBarPoint--start'>$ 0</span>
+                                    <span class='section2__progressBarPoint
+                                                    section2__progressBarPoint--end'>$ 1 million</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div id="fourth" class="container-fluid">
+                    <div id="forth-row" class="row justify-content-center">
+                        <div id="card" class="col-lg-10 " style="text-align: center;">
+                            <h4 id="detail1">BITCOIN ECO Abstract </h4>
+                            <p id="para0">The emergence of cryptocurrencies has disrupted various industries
+                                worldwide,
+                                providing users with a plethora of opportunities
+                                not previously available with traditional currencies. Bitcoin, in particular, has
+                                made
+                                significant strides, becoming a household name
+                                in the world of blockchain and distributed ledger. However, Bitcoin's mining
+                                mechanism
+                                and technologies have had unintended consequences,
+                                causing debatable effects on the environment.
+                                Most blockchains have failed to maintain decentralization and
+                                turned into plutocracy.
+                            </p>
+                        </div>
+                        <div id="card" class="col-lg-10" style="text-align: center;">
+                            <h4 id="detail1">The Problem</h4>
+                            <p id="para0">The current Bitcoin mining process is a resource-intensive process that
+                                requires vast amounts of energy and computing power.
+                                Bitcoin miners use specialized hardware to solve complex mathematical problems in a
+                                consenus known as Proof of Work (PoW).
+                                This process is essential for validating transactions on the blockchain and ensuring the
+                                security of the network.
+                                However, the energy consumption associated with PoW mining is a significant concern,
+                                especially when considering the impact, it has on the environment.
+                                Bitcoin ECO will also use a more efficient and sustainable blockchain architecture. The
+                                new blockchain will be designed to reduce the size of the data stored on the network,
+                                making it easier to store and process. This design will reduce the computing power
+                                required to validate transactions, further reducing the energy consumption and carbon
+                                emissions of the network. The sustainable blockchain architecture will also address the
+                                scalability and interoperability issues faced by the current Bitcoin.</p>
+                        </div>
+                        <div id="card" class="col-lg-10" style="text-align: center;">
+                            <h4 id="detail1">The Solution (Bitcoin Eco)</h4>
+                            <p id="para0">Bitcoin ECO is an alternative to the current Bitcoin that is designed to be
+                                more energy-efficient and sustainable. It aims to reduce energy consumption and carbon
+                                emissions while still maintaining the high level of security and decentralization of
+                                Bitcoin. Bitcoin ECO will also solve the scalability, governance, privacy, transaction
+                                fees, security, and interoperability issues faced by the current Bitcoin.
+                                Bitcoin ECO will use a new consensus algorithm called Proof of Authority (PoA), which
+                                replaces the old Proof of Work (PoW) algorithm. Bitcoin ECO will rely on a limited
+                                number of validators to validate transactions, rather than energy-intensive mining
+                                equipment. Validators are chosen based on their reputation and track record, ensuring
+                                the integrity of the network. Bitcoin ECO will be much more energy-ecient and
+                                sustainable than the PoW algorithm used by the current Bitcoin.</p>
+                            <br>
+                            <p id="para0"><b>Circulating Supply :</b> 21,000,000</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="container-fluid">
+                    <div class="row justify-content-center" id="claim">
+                        <div class="col-lg-8">
+                            <div id="buytoken2" class="apps-card">
+                                <div class="app-card app-card-12">
+                                    <h2 id="claim-heading">Token Claim Dashboard</h2>
+                                    <div id="novistoken" class="apps-card-new">
+                                        <div class="app-card2 app-card-12">
+                                            <div class="set-display">
+                                                <h4 class="public-pixel">Claimable Tokens =&nbsp;</h4>
+                                                <h4 class="public-pixel" id="tokens-claim"></h4>
+                                            </div>
+                                            <div class="set-display">
+                                                <h4 class="public-pixel">Claim Status =&nbsp;</h4>
+                                                <h4 class="public-pixel" id="claimTime"></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="app-card-buttons">
+                                        <button type="button" id="claimTokens" class="btn btn-outline-warning">Claim
+                                            tokens</button>
+                                    </div>
+                                    <div class="app-card-buttons">
+                                        <button type="button" id="connecClaimtButton" class="btn btn-outline-warning"
+                                            style="background-color: #0b9444; color: white;">Connect</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div id="fourth2" class="container-fluid">
+                    <div id="forth-row" class="row justify-content-center">
+                        <div id="card" class="col ">
+                            <img src="./images/node3.png" alt="">
+                            <h4 id="detail2">Scalability</h4>
+                            <p id="para">Scalability is a significant issue with the current Bitcoin. As the number of
+                                transactions on the network increases, the network becomes congested, leading to slow
+                                transaction times and high fees.
+                            </p>
+                        </div>
+                        <div id="card" class="col">
+                            <img src="./images/node1.png" alt="">
+                            <h4 id="detail2">Governance</h4>
+                            <p id="para">Bitcoin's governance structure is decentralized and lacks clear leadership,
+                                which
+                                can lead to slow decision-making processes. This lack of leadership has been criticized
+                                by
+                                some stakeholders, who believe that the network needs more organized governance to make
+                                quicker and more ecient decisions.</p>
+                        </div>
+                        <div id="card" class="col" style>
+                            <img src="./images/node2.png" alt="">
+                            <h4 id="detail2">Interoperability</h4>
+                            <p id="para">Interoperability is an issue with the current Bitcoin. Bitcoin's architecture
+                                makes
+                                it dicult to integrate with other blockchain networks, limiting its potential
+                                applications
+                                in the broader blockchain ecosystem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+
+                <div id="FAQS-row" class="row justify-content-center">
+                    <h1 id="faq-line">F.A.Q's</h1>
+
+                    <div id="points" class="col-sm-5" style="padding: 0; margin-bottom: 130px;">
+                        <!-- <div class="po" id="first-point">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>WHAT IS DOGETTI?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>HOW DOES DOGETTI DIFFER FROM OTHER MEME COINS?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>WHAT ARE DOGETTI NFTS?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>WHAT IS THE DOGETTIDAO?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>WHAT IS THE DOGETTI PRESALE?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>WHAT IS THE MAXIMUM NUMBER OF DOGETTI TOKENS THAT WILL BE CREATED?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>HOW CAN I BUY DOGETTI TOKENS?</span>
+                            </a>
+                        </div>
+                        <div class="po">
+                            <a class="link" href="">
+                                <img id="flower" src="images/flower.png" alt="img">
+                                <span>HOW CAN I KEEP UP WITH UPDATES ON DOGETTI?</span>
+                            </a>
+                        </div> -->
+
+
+                        <div class="po" id="first-point">
+                            <button class="accordion"><img id="flower" src="images/flower.png" alt="img"> What is
+                                bitcoin eco?
+                            </button>
+                            <div class="accordion-content">
+                                <div id="para-1">
+                                    <p>
+                                        Bitcoin ECO is an alternative to the current Bitcoin that is designed to be more
+                                        energy-efficient and sustainable
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="po">
+                            <button class="accordion"><img id="flower" src="images/flower.png" alt="img"> How do I
+                                purchase bitcoin eco from Presale?
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    All you need to do is connect your wallet and enter the amount of ETH you want to
+                                    buy the tokens for and press the buy button. At a time, you can buy tokens for 0.01
+                                    ETH to
+                                    5 ETH. Once the transaction is complete, you
+                                    can buy more or wait for the presale to end to claim your tokens.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="po">
+                            <button class="accordion"><img id="flower" src="images/flower.png" alt="img"> How do I claim
+                                my tokens?
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    Once the presale ends, you just need to connect your wallet and press the claim
+                                    button. Once the transaction is complete, import the bitcoin eco address into your
+                                    wallet and you'll be able to see your tokens.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="po">
+                            <button class="accordion"><img id="flower" src="images/flower.png" alt="img"> Which
+                                blockchain network is bitcoin eco on?
+                            </button>
+                            <div class="accordion-content">
+                                <p>
+                                    The bitcoin eco token is currenly on the Ethereum blockchain.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="po">
+                            <button class="accordion"><img id="flower" src="images/flower.png" alt="img"> What is an
+                                ERC-20 token
+                                ?</button>
+                            <div class="accordion-content">
+                                <p>
+                                    ERC-20 is a standard used for creating and implementing tokens on the Ethereum
+                                    blockchain. These tokens are digital assets that can represent fungible assets like
+                                    cryptocurrencies, loyalty points, or other assets. They are popular because they are
+                                    compatible with any wallet or exchange that supports the ERC-20 standard and are
+                                    easy to create and deploy. ERC-20 tokens can also be used in smart contracts, making
+                                    them suitable for a range of decentralized applications. To be an ERC-20 token, it
+                                    must meet specific criteria, including having a set of functions that enable
+                                    transfer, approval, and querying. Overall, ERC-20 tokens play a crucial role in the
+                                    Ethereum ecosystem and have enabled various innovative applications, such as DeFi
+                                    protocols and gaming platforms.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-label"></div>
+    <footer class="text-center text-lg-start" style="background-color:#F7941D">
+        <div class="container d-flex justify-content-center py-5">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #0b9444;">
+                <img id="icon-footer" src="images/facebook-app-symbol.png" alt="img">
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #0b9444;">
+                <img id="icon-footer" src="images/youtube.png" alt="img">
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #0b9444;">
+                <img id="icon-footer" src="images/instagram.png" alt="img">
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #0b9444;">
+                <img id="icon-footer" src="images/twitter-sign.png" alt="img">
+            </button>
+        </div>
+        <div style="text-align: center; padding: px; padding-left: 40px;padding-right: 40px;margin-top: -30px;">
+            <h3 style="color: #0b9444;">Disclaimer</h3>
+            <p>We're not responsible for any profit or loss you make with Bitcoin Eco. Investing in cryptocurrency comes with real risks. Make sure to do your research and never invest more than you can afford to lose.</p>
+        </div>
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://bitcoineco.org/" target=”_blank”>Bitcoin Eco</a>
+        </div>
+    </footer>
+
+
+    <script>
+        const accordionBtns = document.querySelectorAll(".accordion");
+
+        accordionBtns.forEach((accordion) => {
+            accordion.onclick = function () {
+                this.classList.toggle("is-open");
+
+                let content = this.nextElementSibling;
+                console.log(content);
+
+                if (content.style.maxHeight) {
+                    //this is if the accordion is open
+                    content.style.maxHeight = null;
+                } else {
+                    //if the accordion is currently closed
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    console.log(content.style.maxHeight);
+                }
+            };
+        });
+
+        function openPDF() {
+            window.open('bitcoin eco-Whitepages.pdf', '_blank');
+        }
+
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="auth/index.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
